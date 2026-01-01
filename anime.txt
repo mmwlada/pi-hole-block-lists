@@ -1,0 +1,20 @@
+$TTL 300
+@ SOA localhost. root.localhost. 1767263820 43200 3600 86400 300
+  NS  localhost.
+;
+; Title: mmwlada's anime and games blocklist
+; Description: Blocks websites and services that are mainly used for games and animes my son uses
+; Last modified: 01 Jan 2026 13:32 UTC
+; Version: 2026.0101.1037.12
+; Syntax: RPZ
+; Number of entries: 9
+;
+www.animebalkan.org CNAME .
+www.animesrbija.com CNAME .
+aniwatchtv.to CNAME .
+hianime.to CNAME .
+www.roblox.com CNAME .
+poki.com CNAME .
+roblox.com CNAME .
+apis.roblox.com CNAME .
+rbxcdn.com CNAME .
